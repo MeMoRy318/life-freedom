@@ -1,0 +1,38 @@
+@media (max-width:992px){
+    .footer{
+       
+        ul{
+            li{
+                
+                font-size: 11px;
+                line-height: 130%;
+                color: #ADADAD;
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+        
+    }
+    
+}
+
+@media (max-width:768px){
+    .footer{
+        padding: 20px 0;
+        ul{
+            flex-direction: column;
+            row-gap: 10px;
+            li{
+                text-align: center;    
+                font-size: 16px;
+                line-height: 130%;
+                color: #ADADAD;
+                display: inline-block;
+                margin-right: 20px;
+            }
+        }
+        
+    }
+}
+
+

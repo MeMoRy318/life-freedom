@@ -1,0 +1,22 @@
+
+@media (max-width:768px){
+    .slider{
+       height: 65vh;
+        &__dots{
+           display: none;
+        }
+
+        &__img{
+            img{
+                object-fit: contain;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .dots{
+        display: none;
+    }
+}
+

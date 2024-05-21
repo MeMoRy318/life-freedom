@@ -1,0 +1,18 @@
+.footer{
+    background-color: #000000;
+    padding: 60px 0;
+
+    ul{
+        display: flex;
+
+        li{
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 130%;
+            color: #ADADAD;
+            display: inline-block;
+            margin-right: 25px;
+        }
+    }
+    
+}

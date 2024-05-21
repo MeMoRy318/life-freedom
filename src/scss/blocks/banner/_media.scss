@@ -1,0 +1,26 @@
+@media (max-width:1200px){
+    .banner {
+        min-height: 100vh;
+        &__title {
+            font-size: 25px;
+            max-width: 400px;
+        }
+        &__btns{    
+                button{
+                    &:hover {
+                        background: #FFE600;
+                        color: #000;
+                    }
+                }
+    
+                .banner__btns_right{
+                    color: #FFE600;
+                    background:none;
+    
+                    &:hover {
+                        background: none; 
+                    }
+                }
+        }
+    }
+}

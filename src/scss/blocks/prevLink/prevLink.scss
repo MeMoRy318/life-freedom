@@ -1,0 +1,13 @@
+.prevLink{
+    background-color: #000;
+    padding: 140px 0px 20px 0px;
+
+    &__row{
+        display: flex;
+        
+        img{
+            width: 20px;
+            margin-right: 10px;
+        }
+    }
+}

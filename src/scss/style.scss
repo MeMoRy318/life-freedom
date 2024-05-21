@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import './variables/variables';
+@import './base.scss';
+@import './libs/animate';
+
+@import './blocks/header/header.scss';
+@import './blocks/banner/banner';
+@import './blocks/about/about';
+@import './blocks/ways/ways';
+@import './blocks/support/support';
+@import './blocks/slider/slider';
+@import './blocks/feedback/feedback';
+@import './blocks/contact/contact.scss';
+@import './blocks/footer/footer.scss';
+@import './blocks/prevLink/prevLink.scss';
+@import './blocks/policy/policy.scss';
+
+@import './blocks/header/media';
+@import './blocks/banner/media';
+@import './blocks/ways/media';
+@import './blocks/support/media';
+@import './blocks/slider/media';
+@import './blocks/feedback/media';
+@import './blocks/contact/media';
+@import './blocks/footer/media'

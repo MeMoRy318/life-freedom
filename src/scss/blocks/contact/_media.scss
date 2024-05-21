@@ -1,0 +1,41 @@
+@media (max-width:992px){
+    .contact{
+        padding: 70px 0;
+    
+        &__row{
+            flex-direction: column;
+            align-items:center;
+            row-gap: 40px;
+        }
+    
+        &__desc{
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+            h2{
+               text-align: center;
+            }
+    
+            p{
+                margin: 0 auto;
+                max-width: 450px;
+                text-align: center;
+            }
+        }
+
+        &__communication{
+            flex: 0 0 100%;
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+       
+    .helpForm{
+        max-width: 100%;
+        div{
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+    
+}

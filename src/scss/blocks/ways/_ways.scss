@@ -1,0 +1,104 @@
+.ways{
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../../img/gumanitarka.jpeg');
+    background-repeat: no-repeat;
+
+    &__row{
+        display: flex;
+    }
+
+    &__item{
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+        height: 100vh;
+        padding: 5px;
+        cursor: pointer;
+        position: relative;
+        &:hover{
+            background:rgba(0, 0, 0, 0.7);
+        }
+        
+        &:hover > h2{
+            opacity: 0;
+        }
+
+      
+
+        h2{
+            position: absolute;
+            font-size: 17px;
+            line-height: 25px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ADADAD;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: ease-in-out 0.500s;
+            opacity: 1;           
+        }
+        &_bor{
+            border-left: 2px solid white;
+            border-right: 2px solid white;
+        }
+
+    }
+    &__desc{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        opacity: 0; 
+        width: 100%;
+        max-width: 330px;
+        transform: translate(-50%,-50%);
+        transition: ease-in-out 0.500s;
+
+        h3{
+            text-align: center;
+            color: #FFFFFF;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        p{
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 160%;
+            color: #ADADAD;
+            margin-bottom: 15px;
+        }
+
+        button{
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #FFE600;
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+            width: 145px;
+            border: 1px solid;
+            padding: 11px;
+            border-radius: 5px;
+            margin-top: 30px;
+            background:none;
+            
+            &:hover{
+                background: #FFE600;
+                a{
+                    color: black;
+                }
+            }
+            
+            a{
+                color: #FFE600;
+            }
+        }
+        &:hover{
+            opacity: 1;
+            
+        }
+    }
+}
